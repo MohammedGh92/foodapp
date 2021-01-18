@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Matjar</string>
+    <string name="facebook_app_id">434279460468819</string>
+    <string name="fb_login_protocol_scheme">fb434279460468819</string>
+</resources>

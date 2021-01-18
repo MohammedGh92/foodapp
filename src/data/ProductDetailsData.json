@@ -1,0 +1,71 @@
+{
+  "data": {
+  "_id": "v3owmpajQjnGFz8Fs",
+	"ancestors": [
+		"9Pa6qdfXa7y5pQBoY",
+		"72Qomfd9SSzs3eRyE"
+	],
+	"type": "variant",
+	"desc":"A product description is the marketing copy that explains what a product is and why it’s worth \n \n purchasing. The purpose of a product description is to supply customers with important \n information about the features and benefits of the product \n so they’re compelled to buy. \n \n A product description is the marketing copy that explains what a product \n \n is and why it’s worth purchasing. The purpose of a product description is to supply \n \n customers with important information about the features and benefits of the product so they’re compelled to buy.",
+	"price": 14.99,
+	"inventoryManagement": true,
+	"inventoryPolicy": false,
+	"shopId": "J8Bhq3uTtdgwZx3rz",
+	"taxable": true,
+	"taxCode": "00000",
+	"optionTitle": "Size 10",
+	"title": "Size 10",
+	"inventoryQuantity": 100,
+	"isVisible": true,
+	"images":["https://picsum.photos/100/100","https://picsum.photos/100/100","https://picsum.photos/100/100"],
+	"reviews":[
+  {
+    "_id": "58c03ac18060197ca0b52d51",
+    "author": "58c039018060197ca0b52d4c",
+    "store": "58c03a958060197ca0b52d50",
+    "text": "I tried this place last week and it was incredible! Amazing selection of local and imported brews and the food is to die for! ",
+    "rating": 2.3,
+    "created": "2017-03-08T17:09:21.627Z"
+  },
+  {
+    "_id": "58c03af28060197ca0b52d53",
+    "author": "58c03ada8060197ca0b52d52",
+    "store": "58c03a958060197ca0b52d50",
+    "text": "hipsters everywhere",
+    "rating": 2.9,
+    "created": "2017-03-08T17:10:10.426Z"
+  },
+  {
+    "_id": "58c08780bbb1a51e0d43a050",
+    "author": "58c039018060197ca0b52d4c",
+    "store": "58c065dbbbb1a51e0d43a04f",
+    "text": "Always a great spot to grab a coffee with a friend. ",
+    "rating": 4.3,
+    "created": "2017-03-08T22:36:48.575Z"
+  },{
+    "_id": "58c03ac18060197ca0b52d51",
+    "author": "58c039018060197ca0b52d4c",
+    "store": "58c03a958060197ca0b52d50",
+    "text": "I tried this place last week and it was incredible! Amazing selection of local and imported brews and the food is to die for! ",
+    "rating": 2.3,
+    "created": "2017-03-08T17:09:21.627Z"
+  },
+  {
+    "_id": "58c03af28060197ca0b52d53",
+    "author": "58c03ada8060197ca0b52d52",
+    "store": "58c03a958060197ca0b52d50",
+    "text": "hipsters everywhere",
+    "rating": 2.9,
+    "created": "2017-03-08T17:10:10.426Z"
+  },
+  {
+    "_id": "58c08780bbb1a51e0d43a050",
+    "author": "58c039018060197ca0b52d4c",
+    "store": "58c065dbbbb1a51e0d43a04f",
+    "text": "Always a great spot to grab a coffee with a friend. ",
+    "rating": 4.3,
+    "created": "2017-03-08T22:36:48.575Z"
+  }
+]
+  }
+}

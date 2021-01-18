@@ -1,0 +1,29 @@
+{
+  "data": {
+    "id": 80877,
+    "name": "Action",
+    "dataarr": [
+      {
+        "id": 132548,
+        "name": "SPIDER-MAN 2 ",
+        "description": "Boasting an entertaining villain and deeper emotional focus, this is a nimble sequel that improves upon the original",
+        "rate": "4.0",
+		"image-null":"https://picsum.photos/100/100"
+      },
+      {
+        "id": 655881,
+        "name": "BATTLE ROYALE",
+        "description": "Battle Royale is a controversial and violent parable of adolescence, heightening teenage melodrama with life-or-death stakes.",
+        "rate": "3.5",
+		"image-null":"https://picsum.photos/100/100"
+      },
+      {
+        "id": 655882,
+        "name": "ESCAPE FROM NEW YORK",
+        "description": "Featuring an atmospherically grimy futuristic metropolis, Escape from New York is a strange, entertaining jumble of thrilling action and oddball weirdness.",
+        "rate": "4.2",
+		"image-null":"https://picsum.photos/100/100"
+      }
+    ]
+  }
+}

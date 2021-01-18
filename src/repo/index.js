@@ -1,0 +1,9 @@
+export {default as AuthRepo} from './auth';
+export {default as EventsRepo} from './events';
+export {default as PickersRepo} from './pickers';
+export {default as TripsRepo} from './trips';
+export {default as UsersRepo} from './users';
+export {default as StaticPagesRepo} from './staticPages';
+export {default as SideMenuRepo} from './sideMenu';
+export {default as NotificationsRepo} from './notifications';
+export {default as PostsRepo} from './posts';

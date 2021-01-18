@@ -1,0 +1,77 @@
+{
+  "_from": "@twotalltotems/react-native-otp-input",
+  "_id": "@twotalltotems/react-native-otp-input@1.1.5",
+  "_inBundle": false,
+  "_integrity": "sha512-GYe8mNF5TbKwvKw7V1g864qr1oiRP+TdlhUllT2mItafWea5GhYbTCoPq1hJ7CzWuTd9CeqUkMUWN5HVM2W8dg==",
+  "_location": "/@twotalltotems/react-native-otp-input",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@twotalltotems/react-native-otp-input",
+    "name": "@twotalltotems/react-native-otp-input",
+    "escapedName": "@twotalltotems%2freact-native-otp-input",
+    "scope": "@twotalltotems",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@twotalltotems/react-native-otp-input/-/react-native-otp-input-1.1.5.tgz",
+  "_shasum": "cfd8af11230c6dd892d1f8466279e2353af43fd7",
+  "_spec": "@twotalltotems/react-native-otp-input",
+  "_where": "/Volumes/Mahmoud/Projects/yahala",
+  "author": {
+    "name": "TTT Studio",
+    "url": "https://ttt.studio"
+  },
+  "bugs": {
+    "url": "https://github.com/Twotalltotems/react-native-otp-input/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Anson Yao",
+      "email": "yaoenxin@gmail.com",
+      "url": "https://github.com/ansonyao"
+    },
+    {
+      "name": "Felipe Peña",
+      "email": "felipe@penya.cl",
+      "url": "http://felipe.penya.cl"
+    }
+  ],
+  "deprecated": false,
+  "description": "is a tiny JS library for one time passcode (OTP). Supports smart input suggestion on iOS and code autofill on Android (it will be filled when you press the copy button on the SMS notification bar)",
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/Twotalltotems/react-native-otp-input#readme",
+  "keywords": [
+    "react-native",
+    "otp",
+    "otc",
+    "one time password",
+    "one time pin",
+    "one time pincode",
+    "one time code",
+    "sms",
+    "verifcation code",
+    "phone",
+    "verification"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@twotalltotems/react-native-otp-input",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twotalltotems/react-native-otp-input.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.5"
+}
