@@ -1,35 +1,25 @@
-import React, { useEffect,useState } from 'react';
-import { AppView } from '../../common';
-import { CustomHeader, CustomProdScrollView,CustomAppSwiper } from '../../components';
-import CatData from '../../data/CatData.json';
-import ProductsData from '../../data/ProductsData.json';
+import React, { useEffect } from 'react';
+import { AppView, CategoryItem, AppImage } from '../../common';
+import { FlatList } from 'react-native';
+import { CustomHeader } from '../../components';
+import { categories } from '../../data/dataArrays';
 
-const Category = ({ data }) => {
+const Category = () => {
 
-const [images, setimages] = useState([]);
-
-  useEffect(() => {
-  }, []);
-
-const ItemsToImages =()=>{
-  let returnedImages = [];
-  ProductsData.data.dataarr.map((item, index) =>
-    returnedImages.push(item['image-null'])
-)
-return returnedImages;
-}
-
-
+{/* <AppImage width={100} height={100} style={{ position: 'absolute' }} source={require('../../assets/imgs/Samples/home.png')} /> */}
   return (
-    <AppView flex cetnerX>
-      <CustomHeader title='Category' />
-
-      <CustomAppSwiper images={ItemsToImages()}/>
-
-      <CustomProdScrollView title='Featured Products' Data={ProductsData} NavMenu={'products'} />
-
-      <CustomProdScrollView title='Various products' Data={ProductsData} NavMenu={'products'} />
-
+    <AppView flex centerX>
+      
+      <CustomHeader centerTitle title='Categories' />
+      <FlatList
+        data={categories}
+        renderItem={(data) => <CategoryItem marginHorizontal={7} key={data.item.id}
+          item={data.item} NavMenu={'productdetails'} />}
+        keyExtractor={(item) => item.id}
+        numColumns={1}
+        style={{ width: '110%', margin: '2%' }}
+        contentContainerStyle={{ alignItems: 'center' }}
+      />
     </AppView>
   );
 };

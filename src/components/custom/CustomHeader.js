@@ -4,7 +4,6 @@ import { Header } from '..';
 import { getThemeColor } from '../../common/utils/colors';
 import { useSelector } from 'react-redux';
 const CustomHeader = ({
-  Rtitle,
   title,
   showMenu,
   centerTitle
@@ -14,7 +13,7 @@ const CustomHeader = ({
   return (
     <Header
       color={'#222222'}
-      title={title}
+      title={title+'    '}
       showMenu={showMenu}
       centerTitle={centerTitle}
     />

@@ -57,3 +57,4 @@ export {default as ProdItem} from './custom/ProdItem';
 export {default as CategoryItem} from './custom/CategoryItem';
 export {default as OrderItem} from './custom/OrderItem';
 export {default as CartItem} from './custom/CartItem';
+export {default as RecipeItem} from './custom/RecipeItem';

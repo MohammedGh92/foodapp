@@ -6,12 +6,13 @@ import ProductsData from '../../data/ProductsData.json';
 import { recipes } from '../../data/dataArrays';
 
 
-const Home = () => {
+const ingredients = () => {
 
-{/* <AppImage width={100} height={100} style={{ position: 'absolute' }} source={require('../../assets/imgs/Samples/home.png')} /> */}
+
   return (
     <AppView flex centerX>
-      
+      {true && <AppImage width={100} height={100} style={{ position: 'absolute' }}
+        source={require('../../assets/imgs/Samples/ingredients.png')} />}
       <CustomHeader showMenu centerTitle title='Home' />
       <FlatList
         data={recipes}
@@ -26,4 +27,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default ingredients;

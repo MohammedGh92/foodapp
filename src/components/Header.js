@@ -19,7 +19,8 @@ const Header = (props) => {
     bold,
     showNotif,
     color,
-    centerTitle
+    centerTitle,
+    Ltitle
   } = props;
   const goBack = () => {
     if (backHandler) {
@@ -72,39 +73,39 @@ const Header = (props) => {
 
   const renderCenter = () => {
     return (
-      <AppView left={!centerTitle} center={centerTitle}  width={80}>
-        <AppText
-          size={bold ? 10 : 8}
-          bold={bold}
-          numberOfLines={1}
-          color={color}
-          margin={2}
-        >
-          {title}
-        </AppText>
-      </AppView>
+        <AppView left={!centerTitle} center={centerTitle} width={80}>
+          <AppText
+            size={bold ? 10 : 8}
+            bold={bold}
+            numberOfLines={1}
+            color={color}
+            margin={2}
+          >
+            {title}
+          </AppText>
+        </AppView>
     );
   };
   return (
-    <AppView
-      elevation={1.1}
-      center
-      backgroundColor={backgroundColor}
-      stretch
-      style={{
-        height: APPBAR_HEIGHT,
-      }}
-      row
-      spaceBetween>
-      {renderLeft()}
-      {renderCenter()}
-      {renderRight()}
-    </AppView>
+        <AppView
+          elevation={1.1}
+          center
+          backgroundColor={backgroundColor}
+          stretch
+          style={{
+            height: APPBAR_HEIGHT,
+          }}
+          row
+          spaceBetween>
+          {renderLeft()}
+          {renderCenter()}
+          {renderRight()}
+        </AppView>
   );
 };
 
 Header.defaultProps = {
-  hideBack: false,
+          hideBack: false,
   showNotif: false,
   color: '#29235C',
   backgroundColor: 'transparent',

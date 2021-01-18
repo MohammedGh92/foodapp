@@ -25,7 +25,7 @@ export const categories = [
   {
     id: 0,
     name: 'Pizza',
-    photo_url: 'https://amp.businessinsider.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg'
+    photo_url: 'https://popmenucloud.com/bpwgoysv/e84c0f4a-9442-40c4-a58f-389187fb960b'
   },
 ];
 
@@ -251,7 +251,7 @@ export const recipes = [
     recipeId: 0,
     categoryId: 0,
     title: 'Classic Lasagna',
-    photo_url: 'https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg',
+    photo_url: 'https://www.thewholesomedish.com/wp-content/uploads/2018/07/Best-Lasagna-550.jpg',
     photosArray: [
       "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
       'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',

@@ -12,6 +12,7 @@ import SignIn from './signIn/SignIn';
 import SignUp from './signUp/SignUp';
 import Orders from './orders/Orders';
 import AboutUs from './aboutus/AboutUs';
+import Ingredients from './ingredients/Ingredients';
 
 export default () => {
 
@@ -27,5 +28,6 @@ export default () => {
   AppNavigation.registerScreen('signup', SignUp);
   AppNavigation.registerScreen('orders', Orders);
   AppNavigation.registerScreen('aboutus', AboutUs);
+  AppNavigation.registerScreen('ingredients', Ingredients);
 
 };
