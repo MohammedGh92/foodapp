@@ -12,8 +12,8 @@ const Item = ({name, type, title, onPress}) => {
       row
       spaceBetween>
       <AppView row>
-        <AppIcon marginHorizontal={5} size={9} {...{name}} {...{type}} />
-        <AppText size={7} color="secondary">
+        <AppIcon color="black" marginHorizontal={5} size={9} {...{name}} {...{type}} />
+        <AppText size={7} color="black">
           {title}
         </AppText>
       </AppView>

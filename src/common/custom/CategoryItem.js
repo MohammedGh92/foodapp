@@ -4,16 +4,15 @@ import { getNumberOfRecipes } from '../../data/MockDataAPI';
 
 const CategoryItem = (props) => {
   const {
-    item,
-    NavMenu
+    item
   } = props;
 
   const OnClick = useCallback(() => {
 
     AppNavigation.push({
-      name: NavMenu,
+      name: 'recipes',
       passProps: {
-        data: item,
+        item: item,
       },
     })
   }, []);

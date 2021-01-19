@@ -6,8 +6,8 @@ import { useSelector } from 'react-redux';
 const CustomHeader = ({
   title,
   showMenu,
-  centerTitle
-
+  centerTitle,
+  backgroundColor
 }) => {
 
   return (
@@ -16,6 +16,7 @@ const CustomHeader = ({
       title={title+'    '}
       showMenu={showMenu}
       centerTitle={centerTitle}
+      backgroundColor={backgroundColor}
     />
   );
 };

@@ -58,3 +58,4 @@ export {default as CategoryItem} from './custom/CategoryItem';
 export {default as OrderItem} from './custom/OrderItem';
 export {default as CartItem} from './custom/CartItem';
 export {default as RecipeItem} from './custom/RecipeItem';
+export {default as IngredientsItem} from './custom/IngredientsItem';

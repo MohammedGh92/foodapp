@@ -1,21 +1,19 @@
 import React, { useCallback, useEffect } from 'react';
-import { AppText, AppView, AppImage, TouchableView, AppNavigation } from '..';
+import { AppText, AppImage, TouchableView, AppNavigation } from '..';
 
 const RecipeItem = (props) => {
   const {
-    item,
-    NavMenu
+    item
   } = props;
 
   useEffect(() => {
   }, []);
 
   const OnClick = useCallback(() => {
-
     AppNavigation.push({
-      name: NavMenu,
+      name: 'recipe',
       passProps: {
-        data: item,
+        item: item,
       },
     })
   }, []);

@@ -14,7 +14,7 @@ const Category = () => {
       <FlatList
         data={categories}
         renderItem={(data) => <CategoryItem marginHorizontal={7} key={data.item.id}
-          item={data.item} NavMenu={'productdetails'} />}
+          item={data.item}/>}
         keyExtractor={(item) => item.id}
         numColumns={1}
         style={{ width: '110%', margin: '2%' }}

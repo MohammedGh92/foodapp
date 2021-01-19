@@ -90,6 +90,7 @@ const Header = (props) => {
         <AppView
           elevation={1.1}
           center
+          marginTop={-1}
           backgroundColor={backgroundColor}
           stretch
           style={{

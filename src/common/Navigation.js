@@ -568,7 +568,7 @@ class Navigation {
 
   static navigateToHome = () => {
     Navigation.init(Navigation.MAIN_STACK, {
-      name: 'ingredients',
+      name: 'home',
       rtl: false,
       sideMenu: 'menu',
     });

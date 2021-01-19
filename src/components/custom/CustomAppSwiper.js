@@ -4,18 +4,17 @@ const CustomAppSwiper = (props) => {
   return (
      <AppSwiper
           autoplay
-          height={35}
+          height={37.5}
           width={100}
           backgroundColor="#fff"
-          indicatorColor='darkgrey'
-          indicatorActiveColor='silver'
+          indicatorColor='#dedede'
+          indicatorActiveColor='white'
         >
           {props.images.map((item, index) => {
             return (
               <AppImage
                 key={item}
-                // source={item ? {uri:item} : require('../../assets/imgs/MaskGroup14.png')}
-                source={require('../../assets/imgs/MaskGroup14.png')}
+                source={{uri:item}}
                 resizeMode="stretch"
                 width={100}
                 elevation={5}
