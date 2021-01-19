@@ -1,10 +1,15 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import { AppView, RecipeItem, AppImage } from '../../common';
 import { FlatList } from 'react-native';
 import { CustomHeader } from '../../components';
 import { recipes } from '../../data/dataArrays';
+import SplashScreen from 'react-native-splash-screen';
 
 const Home = () => {
+
+useEffect(() => {
+SplashScreen.hide();
+  }, []);
 
   return (
     <AppView flex centerX>
