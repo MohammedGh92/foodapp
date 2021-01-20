@@ -3,29 +3,29 @@ export const categories = [
     id: 3,
     name: 'Cookies',
     photo_url:
-    'https://www.telegraph.co.uk/content/dam/Travel/2019/January/france-food.jpg?imwidth=1400'
+    'https://cdn.theatlantic.com/assets/media/img/mt/2014/10/5471190091_17610a555e_z/lead_large.jpg'
   },
   {
     id: 1,
     name: 'Mexican Food',
-    photo_url: 'https://ak1.picdn.net/shutterstock/videos/19498861/thumb/1.jpg'
+    photo_url: 'https://ak.picdn.net/shutterstock/videos/19499038/thumb/1.jpg'
   },
   {
     id: 2,
     name: 'Italian Food',
     photo_url:
-      'https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
+      'https://www.englishclub.com/images/vocabulary/food/italian/italian-food-1024.jpg'
   },
   {
     id: 4,
     name: 'Smoothies',
     photo_url:
-    'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/still-life-of-three-fresh-smoothies-in-front-of-royalty-free-image-561093647-1544042068.jpg?crop=0.715xw:0.534xh;0.0945xw,0.451xh&resize=768:*'
+    'https://hips.hearstapps.com/hmg-prod/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png'
   },
   {
     id: 0,
     name: 'Pizza',
-    photo_url: 'https://popmenucloud.com/bpwgoysv/e84c0f4a-9442-40c4-a58f-389187fb960b'
+    photo_url: 'https://static.toiimg.com/thumb/56933159.cms?imgsize=686279&width=800&height=800'
   },
 ];
 
@@ -34,9 +34,9 @@ export const recipes = [
     recipeId: 122,
     categoryId: 3,
     title: 'Oatmeal Cookies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
+    photo_url: 'https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/11/Oatmeal-cookies-recipe-1-of-1-3.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
+      'https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/11/Oatmeal-cookies-recipe-1-of-1-3.jpg',
       "https://static01.nyt.com/images/2012/11/16/health/wellveggie_comfort1/wellveggie_comfort1-articleLarge.jpg",
       'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
       'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
@@ -52,9 +52,9 @@ export const recipes = [
     categoryId: 4,
     title: 'Triple Berry Smoothie',
     photo_url:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
+      'https://goop-img.com/wp-content/uploads/2020/04/LOWER-SUGAR-BREAKFAST-TRIPLE-BERRY-GINGER-SMOOTHIE-280.jpg',
     photosArray: [
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
+      'https://goop-img.com/wp-content/uploads/2020/04/LOWER-SUGAR-BREAKFAST-TRIPLE-BERRY-GINGER-SMOOTHIE-280.jpg',
       'https://www.vitamix.com/media/other/images/xVitamix-Triple-Berry-Smoothie-square-crop__1.jpg.pagespeed.ic.OgTC3ILD3R.jpg',
       'http://images.media-allrecipes.com/userphotos/960x960/3798204.jpg',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrzui8MM6W66I29VZwVvcjpGv99JW3O1owgupc3KwB65rhAyrZ'
@@ -71,9 +71,9 @@ export const recipes = [
     recipeId: 2,
     categoryId: 3,
     title: 'Vegan Cookies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
+    photo_url: 'https://neuroticmommy.com/wp-content/uploads/2018/12/The-Easiest-Vegan-Chocolate-Chip-Cookies-5.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
+      'https://neuroticmommy.com/wp-content/uploads/2018/12/The-Easiest-Vegan-Chocolate-Chip-Cookies-5.jpg',
       'https://ichef.bbci.co.uk/news/660/cpsprodpb/B2C0/production/_106106754_vegnuggets976.jpg',
       'https://pixel.nymag.com/imgs/daily/grub/2017/11/22/22-mcds-chicken-tenders.w330.h330.jpg',
       'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Flarge_16_9%2Fpublic%2Fstyles%2Fmain%2Fpublic%2Fgettyimages-508510211.jpg%3Fitok%3Dh-Uryi8r&w=400&c=sc&poi=face&q=85'
@@ -99,9 +99,9 @@ export const recipes = [
     categoryId: 3,
     title: 'Pumpkin Spice Cookies',
     photo_url:
-      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
+      'https://i2.wp.com/www.twosisterscrafting.com/wp-content/uploads/2015/09/pumpkin-cookie-cream-cheese-frosting-main2.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
+      'https://i2.wp.com/www.twosisterscrafting.com/wp-content/uploads/2015/09/pumpkin-cookie-cream-cheese-frosting-main2.jpg',
       'https://cdn.junglecreations.com/wp/junglecms/2018/07/4164c5bd-wide-thumbnail.jpg',
       'https://pinchofyum.com/wp-content/uploads/Crunchwrap-Inside.jpg',
       'https://monsonmadethis.com/wp-content/uploads/2017/10/IMG_20171015_161017_025-e1533869302263.jpg'
@@ -129,9 +129,9 @@ export const recipes = [
     recipeId: 1,
     categoryId: 3,
     title: 'Brownies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
+    photo_url: 'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/5/14/0/FNK_FUDGY-KETO-BROWNIES-H_s4x3.jpg.rend.hgtvcom.826.620.suffix/1557848720731.jpeg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
+      'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/5/14/0/FNK_FUDGY-KETO-BROWNIES-H_s4x3.jpg.rend.hgtvcom.826.620.suffix/1557848720731.jpeg',
       'https://images-gmi-pmc.edge-generalmills.com/6fbc6859-e2b1-499d-b0fa-ada600c9cc3f.jpg',
       'http://www.recipe4living.com/assets/itemimages/400/400/3/83c29ac7418067c2e74f31c8abdd5a43_477607049.jpg',
       'https://www.franchisechatter.com/wp-content/uploads/2014/08/KFC-Photo-by-James.jpg'
@@ -151,7 +151,7 @@ export const recipes = [
       [12, '1/2 cups'],
       [13, '1 tablespoon'],
       [14, '1 tablespoon'],
-      [15, '2 breasts, 2 thighs, 2 drumsticks, 2 wings'],
+      [15, '2 breasts, 2 thighs'],
       [16, '1'],
       [17, '2 quarts']
     ],
@@ -162,10 +162,10 @@ export const recipes = [
     recipeId: 4,
     categoryId: 1,
     title: 'Perfect Fish Tacos',
-    photo_url: 'https://hips.hearstapps.com/hmg-prod/images/190307-fish-tacos-112-1553283299.jpg',
+    photo_url: 'https://thecozyapron.com/wp-content/uploads/2018/03/baja-fish-tacos_thecozyapron_1.jpg',
     photosArray: [
-      'http://d2814mmsvlryp1.cloudfront.net/wp-content/uploads/2014/04/WGC-Fish-Tacos-copy-2.jpg',
       'https://thecozyapron.com/wp-content/uploads/2018/03/baja-fish-tacos_thecozyapron_1.jpg',
+      'http://d2814mmsvlryp1.cloudfront.net/wp-content/uploads/2014/04/WGC-Fish-Tacos-copy-2.jpg',
       'https://www.simplyrecipes.com/wp-content/uploads/2017/06/2017-07-22-FishTacos-6.jpg'
     ],
     time: '35',
@@ -190,9 +190,9 @@ export const recipes = [
     categoryId: 1,
     title: 'Chicken Fajitas',
     photo_url:
-      'https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/Flavorful-Chicken-Fajitas_EXPS_GHBZ18_12540_B08_15_8b.jpg',
+      'https://d1uz88p17r663j.cloudfront.net/resized/b04f167e0267841dabb30c2010e51d50_Chicken-Fajitas_744_419.jpg',
     photosArray: [
-      'https://dadwithapan.com/wp-content/uploads/2015/07/Spicy-Chicken-Fajitas-22-1200x480.jpg',
+      'https://d1uz88p17r663j.cloudfront.net/resized/b04f167e0267841dabb30c2010e51d50_Chicken-Fajitas_744_419.jpg',
       'https://3.bp.blogspot.com/-X-dHj7ORF9Q/XH4ssgTuSZI/AAAAAAAAEig/E46HP9wCfdsvyJFcMTX30cw-ICep8lF9ACHMYCw/s1600/chicken-fajitas-mexican-food-id-149559-buzzerg.jpg',
       'https://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/201403-xl-chipotle-chicken-fajitas.jpg?itok=ghVcI5SQ'
     ],
@@ -221,9 +221,9 @@ export const recipes = [
     categoryId: 2,
     title: 'Buffalo Pizza',
     photo_url:
-      'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
+      'https://www.bunsinmyoven.com/wp-content/uploads/2013/02/buffalo-chicken-pizza.jpg',
     photosArray: [
-      'https://www.tablefortwoblog.com/wp-content/uploads/2019/01/buffalo-chicken-pizza-recipe-photos-tablefortwoblog-3-500x500.jpg',
+      'https://www.bunsinmyoven.com/wp-content/uploads/2013/02/buffalo-chicken-pizza.jpg',
       'http://pizzachoicema.com/wp-content/uploads/2018/08/Buffalo-Chicken-Pizza.jpg',
       'https://static1.squarespace.com/static/565bb41ae4b0509ba9fdf769/t/5b9a8e80aa4a998b0be0fcf4/1536855690622/pizza.gif'
     ],
@@ -251,9 +251,9 @@ export const recipes = [
     recipeId: 0,
     categoryId: 0,
     title: 'Classic Lasagna',
-    photo_url: 'https://www.thewholesomedish.com/wp-content/uploads/2018/07/Best-Lasagna-550.jpg',
+    photo_url: 'https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=%5B1000%2C750%5D&w=2000&h=1047&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2014%2F08%2F22%2Fclassic-lasagna-meat-sauce-ck-1410p104--2000.jpg',
     photosArray: [
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
+      "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=%5B1000%2C750%5D&w=2000&h=1047&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2014%2F08%2F22%2Fclassic-lasagna-meat-sauce-ck-1410p104--2000.jpg",
       'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
       'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
       'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
@@ -267,9 +267,9 @@ export const recipes = [
     recipeId: 7,
     categoryId: 2,
     title: 'Spaghetti Carbonara',
-    photo_url: 'https://truffle-assets.imgix.net/655ce202-862-butternutsquashcarbonara-land.jpg',
+    photo_url: 'https://www.oliviascuisine.com/wp-content/uploads/2019/01/authentic-spaghetti-carbonara-IG-720x540.jpg',
     photosArray: [
-      'https://ak3.picdn.net/shutterstock/videos/10431533/thumb/10.jpg',
+      'https://www.oliviascuisine.com/wp-content/uploads/2019/01/authentic-spaghetti-carbonara-IG-720x540.jpg',
       'https://www.kcet.org/sites/kl/files/styles/kl_image_large/public/thumbnails/image/square_hero_desktop_2x_sfs_spaghetti_carbonara_clr-3.jpg?itok=T-rsBDIZ',
       'https://cdn-image.foodandwine.com/sites/default/files/HD-201104-r-spaghetti-with-anchovy.jpg'
     ],
@@ -291,9 +291,9 @@ export const recipes = [
     recipeId: 8,
     categoryId: 2,
     title: 'Lazania',
-    photo_url: 'https://images8.alphacoders.com/817/817353.jpg',
+    photo_url: 'https://kfoods.com/images1/newrecipeicon/beef-lazania_322.jpg',
     photosArray: [
-      'https://previews.123rf.com/images/somegirl/somegirl1509/somegirl150900048/46103208-top-view-of-a-delicious-traditional-italian-lasagna-made-with-minced-beef-bolognese-sauce-topped-wit.jpg',
+      'https://kfoods.com/images1/newrecipeicon/beef-lazania_322.jpg',
       'https://truffle-assets.imgix.net/87f324e4-YOUTUBE-NO-TXT.00_03_19_14.Imagen_fija001.jpg',
       'https://images4.alphacoders.com/817/817350.jpg'
     ],
@@ -326,120 +326,120 @@ export const ingredients = [
   {
     ingredientId: 0,
     name: 'Oil',
-    photo_url: 'https://ak7.picdn.net/shutterstock/videos/27252067/thumb/11.jpg'
+    photo_url: 'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/news/markets/olive-oil-sales-slumped-7.1-yoy-in-december-2019-as-tariffs-prompted-drop-off-in-promo-activity/10635459-1-eng-GB/Olive-oil-sales-slumped-7.1-YoY-in-December-2019-as-tariffs-prompted-drop-off-in-promo-activity_wrbm_large.jpg'
   },
   {
     ingredientId: 1,
     name: 'Salt',
     photo_url:
-      'https://image.freepik.com/free-photo/sea-salt-wooden-bowl-isolated-white-background_29402-416.jpg'
+      'https://www.theladders.com/wp-content/uploads/salt-2-191031-800x450.jpg'
   },
   {
     ingredientId: 2,
     name: 'Russet potatoes',
-    photo_url: 'http://www.valleyspuds.com/wp-content/uploads/Russet-Potatoes-cut.jpg'
+    photo_url: 'https://www.specialtyproduce.com/sppics/7843.png'
   },
   {
     ingredientId: 3,
     name: 'Paprika',
     photo_url:
-      'https://image.freepik.com/free-photo/red-chilli-pepper-powder-isolated-white-background_55610-28.jpg'
+      'https://post.healthline.com/wp-content/uploads/2020/08/paprika-benefits-1200x628-facebook-1200x628.jpg'
   },
   {
     ingredientId: 4,
     name: 'Black Pepper',
-    photo_url: 'https://ak0.picdn.net/shutterstock/videos/26741680/thumb/1.jpg'
+    photo_url: 'https://www.sultanspice.co.nz/wp-content/uploads/2018/08/Black-pepper3.png'
   },
   {
     ingredientId: 5,
     name: 'Celery salt',
-    photo_url: 'https://www.hasiroglugurme.com/images/urunler/Koftelik-Esmer-Bulgur-resim-297.jpg'
+    photo_url: 'https://www.culinaryhill.com/wp-content/uploads/2016/11/Homemade-Celery-Salt-Culinary-Hill.jpg'
   },
   {
     ingredientId: 6,
     name: 'Dried sage',
     photo_url:
-      'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Esxjvv7/super-slow-motion-dried-sage-falling-on-white-background_n1xg2gxzg__F0000.png'
+      'https://www.spicesinc.com/images/product/large/4764.jpg'
   },
   {
     ingredientId: 7,
     name: 'Garlic powder',
     photo_url:
-      'https://us.123rf.com/450wm/belchonock/belchonock1808/belchonock180818180/106007144-bowl-of-dry-garlic-powder-on-white-background.jpg?ver=6'
+      'https://www.sultanspice.co.nz/wp-content/uploads/2018/08/Garlic-powder.png'
   },
   {
     ingredientId: 8,
     name: 'Ground allspice',
     photo_url:
-      'https://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/6/9/2695/allspice-berries-jamaican-ground-1.jpg'
+      'https://www.spicemountain.co.uk/wp-content/uploads/2019/10/allspice_1046861527.jpg'
   },
   {
     ingredientId: 9,
     name: 'Dried oregano',
-    photo_url: 'https://frutascharito.es/886-large_default/oregano.jpg'
+    photo_url: 'https://5.imimg.com/data5/UT/FK/MY-58843567/oregano-500x500.jpg'
   },
   {
     ingredientId: 10,
     name: 'Dried basil',
-    photo_url: 'https://www.honeychop.com/wp-content/uploads/2015/09/Dried-Mint.png'
+    photo_url: 'https://4.imimg.com/data4/FT/DM/MY-1888114/dried-basil-leaves-500x500.jpg'
   },
   {
     ingredientId: 11,
     name: 'Dried marjoram',
-    photo_url: 'https://images-na.ssl-images-amazon.com/images/I/71YATIBqBYL._SX355_.jpg'
+    photo_url: 'https://www.thespruceeats.com/thmb/8ZF5mnkGJRVMXMbcTZT4FPQbthg=/3522x3522/smart/filters:no_upscale()/dried-marjoram-155158071-5755c93c5f9b5892e8d7f5e2.jpg'
   },
   {
     ingredientId: 12,
     name: 'All-purpose flour',
     photo_url:
-      'https://images.assetsdelivery.com/compings_v2/seregam/seregam1309/seregam130900036.jpg'
+      'https://cdnimg.webstaurantstore.com/images/products/large/17784/1958219.jpg'
   },
   {
     ingredientId: 13,
     name: 'Brown sugar',
     photo_url:
-      'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BALQTtekliuc6iu4u/rotating-brown-sugar-in-a-white-container-on-white-background_sis0xtbyl_thumbnail-full01.png'
+      'https://www.thespruceeats.com/thmb/fXZNkr0P2kV9yTzXgIBgzAf_BqY=/2122x1194/smart/filters:no_upscale()/462076039-56a20eef5f9b58b7d0c61e41.jpg'
   },
   {
     ingredientId: 14,
     name: 'Kosher salt',
     photo_url:
-      'https://d1yn1kh78jj1rr.cloudfront.net/image/preview/r64-6MxPQjlatyfjp/storyblocks-top-view-of-ceramic-salt-cellar-with-coarse-grained-sea-salt-isolated-on-white-background_SPzKionPuV_SB_PM.jpg'
+      'https://cdnimg.webstaurantstore.com/images/products/large/446038/1710852.jpg'
   },
   {
     ingredientId: 15,
     name: 'Whole chicken',
     photo_url:
-      'https://image.shutterstock.com/image-photo/two-raw-chicken-drumsticks-isolated-260nw-632125991.jpg'
+      'https://ifoodreal.com/wp-content/uploads/2019/10/fg-how-to-cut-a-whole-chicken.jpg'
   },
   {
     ingredientId: 16,
     name: 'Eggs',
     photo_url:
-      'https://image.shutterstock.com/image-photo/egg-whites-yolk-cup-isolated-260nw-1072453787.jpg'
+      'https://www.simplyrecipes.com/wp-content/uploads/2014/07/hard-boiled-eggs-horiz-800.jpg'
   },
   {
     ingredientId: 17,
     name: 'Quarts neutral oil',
     photo_url:
-      'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fgettyimages-464433694_0.jpg%3Fitok%3DK42YR2GV&w=400&c=sc&poi=face&q=85'
+      'https://www.acouplecooks.com/wp-content/uploads/2020/01/Neutral-Oil-005.jpg'
   },
   {
     ingredientId: 18,
     name: 'Water',
-    photo_url: 'https://ak1.picdn.net/shutterstock/videos/829561/thumb/11.jpg'
+    photo_url: 'https://www.righttowater.info/wp-content/uploads/2020/11/make-water-drinkable-1.jpg'
   },
   {
     ingredientId: 19,
     name: 'Onion Powder',
     photo_url:
-      'https://image.shutterstock.com/image-photo/mixed-spices-isolated-on-white-260nw-662383828.jpg'
+      'https://5.imimg.com/data5/YQ/LT/WK/SELLER-94661056/dehydrated-white-onion-powder-500x500.jpg'
   },
   {
     ingredientId: 20,
     name: 'MSG',
     photo_url:
-      'https://img.freepik.com/free-photo/monosodium-glutamate-wood-spoon-white-background_55883-399.jpg?size=626&ext=jpg'
+      'https://i1.wp.com/www.eatthis.com/wp-content/uploads/2019/03/MSG.jpg?resize=640%2C360&ssl=1'
   },
   {
     ingredientId: 21,
@@ -450,231 +450,231 @@ export const ingredients = [
   {
     ingredientId: 22,
     name: 'Onion chopped',
-    photo_url: 'https://s3.envato.com/files/246703499/IMG_1752_5.jpg'
+    photo_url: 'https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/BA9EFA4B-7A77-4D4E-86CC-C24D2BA4576B/Derivates/E91554A0-EEFC-4B7F-A6F6-F05B1E7DB2D8.jpg'
   },
   {
     ingredientId: 23,
     name: 'Tomato paste',
     photo_url:
-      'http://d3e1m60ptf1oym.cloudfront.net/45bab59a-363c-11e1-ab4e-bf4c2e0bb026/PANELA_xgaplus.jpg'
+      'https://storage.googleapis.com/gen-atmedia/3/2014/08/733aabd2246fdca10f4c2ead4f35676fea265ec8.jpeg'
   },
   {
     ingredientId: 24,
     name: 'Chilli Powder',
     photo_url:
-      'https://us.123rf.com/450wm/nuttapong/nuttapong1505/nuttapong150500009/40458002-paprika-powder-isolated-on-white-background.jpg?ver=6'
+      'https://5.imimg.com/data5/CO/JM/MY-61161722/red-chilli-powder-500x500.jpg'
   },
   {
     ingredientId: 25,
     name: 'Ground Beef',
     photo_url:
-      'https://images.radio.com/kmoxam/s3fs-public/styles/nts_image_cover_tall_775x425/public/dreamstime_s_39607998.jpg?XCM.w1UGOp9sVKkWGQZe7_JIsRddxoIK&itok=3M6KcFLH&c=73fb6497175b4c1a5c79e3ede816656a'
+      'https://embed.widencdn.net/img/beef/4hh1pywcnj/800x600px/Grind_Fine_85.psd?keep=c&u=7fueml'
   },
   {
     ingredientId: 26,
     name: 'Can kidney beans, rinsed and drained ',
     photo_url:
-      'https://www.seriouseats.com/images/2014/04/20140414-pile-of-beans-primary-1500x1125.jpg'
+      'https://toriavey.com/images/2017/03/IMG_5692.jpg'
   },
   {
     ingredientId: 27,
     name: 'Large Tortillas',
-    photo_url: 'https://upload.wikimedia.org/wikipedia/commons/5/56/NCI_flour_tortillas.jpg'
+    photo_url: 'https://images-na.ssl-images-amazon.com/images/I/41ncgIp-0AL.jpg'
   },
   {
     ingredientId: 28,
     name: 'Firtos',
     photo_url:
-      'https://previews.123rf.com/images/ksena32/ksena321510/ksena32151000090/45863494-fried-fish-on-a-white-background.jpg'
+      'https://m.media-amazon.com/images/I/91M5DIRwhoL._SX466_.jpg'
   },
   {
     ingredientId: 29,
     name: 'Shredded cheddar',
     photo_url:
-      'https://image.shutterstock.com/image-photo/top-view-small-bowl-filled-260nw-284460308.jpg'
+      'https://cdnimg.webstaurantstore.com/images/products/large/485710/1814631.jpg'
   },
   {
     ingredientId: 30,
     name: 'Lime',
-    photo_url: 'https://ak8.picdn.net/shutterstock/videos/23271748/thumb/1.jpg'
+    photo_url: 'https://universityhealthnews.com/media/benefits-of-lime.jpg'
   },
 
   {
     ingredientId: 31,
     name: 'Ground cumin',
     photo_url:
-      'https://image.shutterstock.com/image-photo/pile-cumin-powder-isolated-on-260nw-1193262853.jpg'
+      'https://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/7/8/2782/cumin-seeds-ground-organic-1.jpg'
   },
   {
     ingredientId: 32,
     name: 'Cayenne pepper',
-    photo_url: 'https://ak7.picdn.net/shutterstock/videos/11461337/thumb/1.jpg'
+    photo_url: 'https://post.healthline.com/wp-content/uploads/2020/09/benefits-cayenne-pepper-732x549-thumbnail-732x549.jpg'
   },
   {
     ingredientId: 33,
     name: 'Flaky white fish',
     photo_url:
-      'https://image.shutterstock.com/image-photo/roach-river-fish-isolated-on-260nw-277764143.jpg'
+      'https://lirp-cdn.multiscreensite.com/6df83188/dms3rep/multi/opt/p32-350x244-640w.jpg'
   },
   {
     ingredientId: 34,
     name: 'Avocado',
     photo_url:
-      'https://www.redwallpapers.com/public/redwallpapers-large-thumb/avocado-cut-stone-leaves-white-background-free-stock-photos-images-hd-wallpaper.jpg'
+      'https://cleananddelicious.com/wp-content/uploads/2016/03/Avocad0-CD.jpg'
   },
   {
     ingredientId: 35,
     name: 'Red Pepper Flakes',
     photo_url:
-      'https://as1.ftcdn.net/jpg/02/06/55/10/500_F_206551074_mVczUrAWOSMaw8kR48FQDQBqDw47jCtL.jpg'
+      'https://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/7/3/2739/chile-crushed-red-pepper-flakes-1.jpg'
   },
   {
     ingredientId: 36,
     name: 'Onions',
-    photo_url: 'http://www.allwhitebackground.com/images/2/2650.jpg'
+    photo_url: 'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/the-health-benefits-of-onions-main-image-700-350-8425535.jpg?quality=90&resize=768,574'
   },
   {
     ingredientId: 37,
     name: 'Green Pepper',
-    photo_url: 'https://ak9.picdn.net/shutterstock/videos/4055509/thumb/1.jpg'
+    photo_url: 'https://groceries.morrisons.com/productImages/122/122259011_0_640x640.jpg?identifier=47fc0756233dd314708a8245e4cf3584'
   },
   {
     ingredientId: 38,
     name: 'Red Pepper',
-    photo_url: 'https://ak9.picdn.net/shutterstock/videos/10314179/thumb/1.jpg'
+    photo_url: 'https://bjs.scene7.com/is/image/bjs/29115?$bjs-Zoom$'
   },
   {
     ingredientId: 39,
     name: 'Pizza dough',
     photo_url:
-      'https://image.shutterstock.com/image-photo/fresh-raw-dough-pizza-bread-260nw-518950903.jpg'
+      'https://www.onceuponachef.com/images/2020/06/Pizza-Dough-scaled.jpg'
   },
   {
     ingredientId: 40,
     name: 'Ketchup sauce',
     photo_url:
-      'https://st2.depositphotos.com/5262887/11050/i/950/depositphotos_110501208-stock-photo-ketchup-bowl-isolated-on-white.jpg'
+      'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/5/3/2/FNM_Jerk-Ketchup_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371597710714.jpeg'
   },
   {
     ingredientId: 41,
     name: 'Hot Sauce',
     photo_url:
-      'https://media.istockphoto.com/photos/opened-can-of-spaghetti-sauce-on-a-white-background-picture-id497704752?k=6&m=497704752&s=612x612&w=0&h=JnL54buYu1Z3fGtd8uNdjFxiAKwlxoDluD6jbIfSaZI='
+      'https://cdnimg.webstaurantstore.com/images/products/large/302711/1877595.jpg'
   },
   {
     ingredientId: 42,
     name: 'Butter',
-    photo_url: 'https://redrockstoffee.com/media/2016/11/AdobeStock_76417550.jpeg'
+    photo_url: 'https://post.healthline.com/wp-content/uploads/2020/08/benefits-of-butter-1200x628-facebook-1200x628.jpg'
   },
   {
     ingredientId: 43,
     name: 'Heavy Cream',
     photo_url:
-      'https://media.istockphoto.com/photos/mayonnaise-in-bowl-isolated-on-white-background-picture-id614981116?k=6&m=614981116&s=612x612&w=0&h=LtbsI2HQXOTERYuP9YJ2PJfRF3W6DcyZ798fxMcQWC0='
+      'https://food.mv.unitheme.net/images/detailed/6/104be010-f359-4808-9dc1-706425e8d884_2.074a1bfc9865a2ca5db19d123bd62dfb.jpeg'
   },
   {
     ingredientId: 44,
     name: 'whole-milk plain yogurt',
     photo_url:
-      'https://st.depositphotos.com/2757384/3317/i/950/depositphotos_33170129-stock-photo-pouring-a-glass-of-milk.jpg'
+      'https://www.stonyfield.com/wp-content/uploads/2017/02/stonyfield-organic-yogurt-32oz-core-whole-milk-plain-straight-500x500.png'
   },
   {
     ingredientId: 45,
     name: 'Chesse',
-    photo_url: 'https://ak7.picdn.net/shutterstock/videos/3619997/thumb/1.jpg'
+    photo_url: 'https://st2.depositphotos.com/2212984/9660/i/950/depositphotos_96604094-stock-photo-chesse-on-wooden.jpg'
   },
   {
     ingredientId: 46,
     name: 'Mozzarella',
     photo_url:
-      'https://t3.ftcdn.net/jpg/02/06/73/98/500_F_206739841_suPu6qDPHlowFqx9qo8fLqV8sNevL2g3.jpg'
+      'https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco/k%2Farchive%2F95b3216d7ba1a003dcf3104a621d1540dfcce9b7'
   },
   {
     ingredientId: 47,
     name: 'celery stalks',
     photo_url:
-      'https://cdn4.eyeem.com/thumb/6d1b3957c7caa9b73c3e0f820ef854b931808139-1538043742765/w/750'
+      'https://images.delightedcooking.com/celery-against-white-background.jpg'
   },
   {
     ingredientId: 48,
     name: 'Parmesan Chesse',
-    photo_url: 'https://ak7.picdn.net/shutterstock/videos/3721877/thumb/1.jpg'
+    photo_url: 'https://www.thespruceeats.com/thmb/j4qGKt1c3b9mZCW4X0fAHkrTJsg=/2121x1193/smart/filters:no_upscale()/Parmesan-cheese-GettyImages-117078872-5873ca725f9b584db3463216.jpg'
   },
   {
     ingredientId: 49,
     name: 'pancetta',
     photo_url:
-      'https://previews.123rf.com/images/onlyfabrizio/onlyfabrizio1606/onlyfabrizio160600002/60198502-raw-stripes-of-pancetta-stesa-on-a-white-background.jpg'
+      'https://www.dartagnan.com/on/demandware.static/-/Sites-dartagnan-live-catalog-en/default/dw13bc24f0/images/products/PDRVT004-1.jpg'
   },
   {
     ingredientId: 50,
     name: 'Spaghetti',
     photo_url:
-      'https://previews.123rf.com/images/mfron/mfron1204/mfron120400098/13306773-bunch-of-spaghetti-nudeln-isoliert-auf-wei%C3%9Fem-hintergrund.jpg'
+      'https://www.thewholesomedish.com/wp-content/uploads/2020/08/The-Best-Classic-Spaghetti-1200-500x375.jpg'
   },
   {
     ingredientId: 51,
     name: 'Garlic',
-    photo_url: 'https://image.freepik.com/free-photo/fresh-garlic-white-background_1339-17012.jpg'
+    photo_url: 'https://i.insider.com/5f73ab9a0ab50d00184ad298?width=1136&format=jpeg'
   },
   {
     ingredientId: 52,
     name: 'Lasagna noodles',
     photo_url:
-      'https://previews.123rf.com/images/velkol/velkol1110/velkol111000004/11083085-an-image-of-raw-lasagna-on-white-background.jpg'
+      'https://irepo.primecp.com/2016/03/257690/recipe-2713_Large500_ID-1440257.jpg?v=1440257'
   },
   {
     ingredientId: 53,
     name: 'Italian sauce',
     photo_url:
-      'https://previews.123rf.com/images/arinahabich/arinahabich1504/arinahabich150400858/38827029-raw-italian-sausage-on-a-white-background-.jpg'
+      'https://www.modernhoney.com/wp-content/uploads/2020/03/Classic-Italian-Tomato-Sauce-3-scaled.jpg'
   },
   {
     ingredientId: 54,
     name: 'Crushed Tomatoes',
     photo_url:
-      'https://previews.123rf.com/images/merkulovnik/merkulovnik1406/merkulovnik140600100/28751626-crushed-tomato-isolated-on-white-background.jpg'
+      'https://allshecooks.com/wp-content/uploads/2016/08/CRUSHED-TOMATOES-RECIPE.jpg'
   },
   {
     ingredientId: 55,
     name: 'Sugar',
     photo_url:
-      'https://previews.123rf.com/images/sommai/sommai1411/sommai141100034/33199985-sugar-cubes-in-a-bowl-isolated-on-white-background.jpg'
+      'https://images.theconversation.com/files/307440/original/file-20191217-58292-nlmvmh.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop'
   },
   {
     ingredientId: 56,
     name: 'minced fresh parsley',
     photo_url:
-      'https://t4.ftcdn.net/jpg/02/15/78/05/240_F_215780551_Eid0xpP1M2fokvuEcvJj8uqhROLJkb3p.jpg'
+      'https://i.ytimg.com/vi/SNGtS8I1iaI/maxresdefault.jpg'
   },
   {
     ingredientId: 57,
     name: 'ricotta cheese',
     photo_url:
-      'https://previews.123rf.com/images/barkstudio/barkstudio1608/barkstudio160800351/61418602-ricotta-cheese-into-a-bowl-in-white-background.jpg'
+      'https://www.thespruceeats.com/thmb/lancGnKx0b_GiPR3Cv9I_VhP8oY=/4256x2832/filters:fill(auto,1)/homemade-ricotta-cheese-recipe-591554-hero-01-84c8381860c941b68287296ea805b3cd.jpg'
   },
   {
     ingredientId: 58,
     name: ' fennel seed',
     photo_url:
-      'https://previews.123rf.com/images/pinkomelet/pinkomelet1710/pinkomelet171000227/88851299-close-up-the-fennel-seed-on-white-background.jpg'
+      'https://images-na.ssl-images-amazon.com/images/I/711zyiXuixL._SL1321_.jpg'
   },
   {
     ingredientId: 59,
     name: 'Banana',
     photo_url:
-      'https://www.conservationmagazine.org/wp-content/uploads/2013/04/sterile-banana.jpg'
+      'https://cdn.mos.cms.futurecdn.net/42E9as7NaTaAi4A6JcuFwG-1200-80.jpg'
   },
   {
     ingredientId: 60,
     name: 'Frozen Straberries',
     photo_url:
-      'https://www.cascadianfarm.com/wp-content/uploads/2018/12/Strawberries_Main_0218.png'
+      'https://5.imimg.com/data5/XK/DR/MY-30273368/frozen-strawberries-500x500.jpg'
   },
   {
     ingredientId: 61,
     name: 'Greek Yogurt',
     photo_url:
-      'http://images.media-allrecipes.com/userphotos/960x960/3758635.jpg'
+      'https://www.liveeatlearn.com/wp-content/uploads/2015/11/how-to-make-greek-yogurt-social.jpg'
   },
 ];
