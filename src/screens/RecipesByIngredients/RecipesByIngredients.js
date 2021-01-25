@@ -14,19 +14,15 @@ const RecipesByIngredients = (props) => {
   } = props;
 
   return (
-    <AppView flex>
-      <CustomHeader centerTitle title={item[0].name} />
+    <AppView center flex>
+      <CustomHeader centerTitle title={'Recipes with ' + item[0].name} />
       <AppImage
+        margin={10}
         source={{ uri: item[0].photo_url }}
-        resizeMode="stretch"
-        width={100}
-        elevation={2}
-        height={40}
+        height={15} width={30} resizeMode='cover'
+        elevation={4}
+        borderRadius={100}
       />
-      <AppText color="#090909" margin={7} bold size={8}>
-        Recipes with {item[0].name} :
-      </AppText>
-
       <FlatList
         data={getRecipesByIngredient(item[0].ingredientId)}
         renderItem={(data) => <RecipeItem marginHorizontal={7} key={data.item.id}

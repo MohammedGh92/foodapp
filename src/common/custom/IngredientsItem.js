@@ -21,22 +21,25 @@ const IngredientsItem = (props) => {
 
   return (
     <TouchableView onPress={OnClick} marginHorizontal={3}
-      margin={8} height={23} width={28}>
+      margin={8} height={15} width={28}>
 
       <MaskedView
         maskElement={
-          <AppView center borderRadius={100} backgroundColor='white'
+          <AppView center borderRadius={20} backgroundColor='white'
             height={15} width={28} />
         }
       >
         <AppImage center backgroundColor='white'
           height={15} width={30} resizeMode='cover'
           source={{ uri: item[0].photo_url }}>
+          <AppView style={{ position: 'absolute', opacity: 0.35, bottom: 0 }} backgroundColor='black'
+            width={30} height={4}></AppView>
+          <AppView width={20} center marginTop={32.5}>
+            <AppText size={3.5} center bold color='white'>{item[0].name}</AppText>
+            <AppText size={3.75} center color='white'>{item[1]}</AppText>
+          </AppView>
         </AppImage>
       </MaskedView>
-
-      <AppText marginTop={2} size={6} center bold color='#484848'>{item[0].name}</AppText>
-      <AppText margin={2} size={6} center color='gray'>  {item[1]}</AppText>
     </TouchableView>
 
   );
