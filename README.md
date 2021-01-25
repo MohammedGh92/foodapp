@@ -27,4 +27,4 @@
 * 5 ) Run 'react-native run-android' for android and 'react-native run-ios' for iOS from the command line.
 
 ## App direct download link
- * https://drive.google.com/file/d/1Ar4Ff5jaZVLWXFr1OeHAqymOTAdyukFx/view?usp=sharing
+ * https://drive.google.com/file/d/1s9BneAqs6PM35tolm-mpygKmGSaodmG-/view?usp=sharing
