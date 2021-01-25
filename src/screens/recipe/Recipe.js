@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { AppView, AppButton, AppText, AppIcon, AppNavigation, RecipeItem } from '../../common';
+import { AppView, AppButton, AppText, AppIcon, AppNavigation } from '../../common';
 import { CustomAppSwiper, ScrollableContainer } from '../../components';
-import { getCategoryName, getCategoryById } from '../../data/MockDataAPI';
+import { getCategoryById } from '../../data/MockDataAPI';
 import { WebView } from 'react-native-webview';
 
 const Recipe = (props) => {
@@ -81,7 +81,7 @@ const Recipe = (props) => {
 
           <AppView margin={7} backgroundColor='black' width={82} height={27.5}>
             <WebView style={{ height: '100%', width: '100%' }}
-              source={{ uri: 'https://www.youtube.com/embed/0pYrbcf8SXc' }} />
+              source={{ uri: item.video }} />
           </AppView>
 
         </AppView>
